@@ -6,7 +6,7 @@ HERE="$(dirname "$(readlink -f "${0}")")"
 if [ -d ykdl ]; then
     rm -rf ykdl
 fi
-git clone 'https://github.com/zhangn1985/ykdl.git'
+git clone 'https://github.com/sinofine/ykdl.git'
 
 # Run PyInstaller
 cp "${HERE}/ykdl_main.py" ykdl/ykdl-moonplayer.py
